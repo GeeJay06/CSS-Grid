@@ -1,0 +1,199 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: white;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0 ;
+}
+.logo-container {
+    align-items: center;
+    justify-self: left ;
+}
+.buy-now-button {
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    align-self: right;
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+}
+.nav {
+    align-items: center;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-side-control {
+    justify-content: flex-end;
+    display: flex;
+}
+.controller {
+    margin: 0 auto;
+    width: 80%;
+}
+.nav-item {
+    padding: 10px;
+}
+.logo-container img{
+    width: 150px;
+    height: auto;
+}
+.main {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.sign-up {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 40%;
+}
+.sign-up-text h1{
+    font-size: 80px;
+    margin: 0;
+}
+.sign-up-text p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.sign-up-interaction {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    padding-top: 75px;
+}
+.sign-up-button {
+    margin-left: 100px;
+    width: 250px;
+    height: 50px;
+    background-color: blueviolet;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.sign-up-email {
+    display: flex;
+}
+.sign-up-email-block {
+    width: 242px;
+    height: 44px;
+    display: flex;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.sponsors {
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 25px;
+    justify-content: center;
+    display: flex;
+}
+.sponsors img{
+    width: 100%;
+    height: auto;
+}
+.expl {
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.expl h2{
+    font-size: 55px;
+    margin: 15px;
+}
+.expl p{
+    font-size: 15px;
+    width: 60%;
+    padding-left: 20%; 
+}
+.steps {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 75px;
+}
+.badge{
+    position: relative;
+    width: 20%;
+    display: flex;
+    background-color: white;
+    outline: auto;
+    outline-color: white;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 75px;
+    align-items: center;
+    box-shadow: -12px 11px 10px 1px rgba(8,8,8,0.29);
+}
+.image-container1 {
+    display: flex;
+    align-content: center;
+    width: 50%;
+}
+.image-container1 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#link {
+    color: white;
+    background-color: blueviolet;
+    width: 50px;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    position: absolute;
+    align-items: center;
+    top: -35px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#share {
+    color: white;
+    background-color: blueviolet;
+    width: 50px;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    position: absolute;
+    align-items: center;
+    top: -35px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#dollar {
+    color: white;
+    background-color: blueviolet;
+    width: 50px;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    position: absolute;
+    align-items: center;
+    top: -35px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
